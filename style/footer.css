@@ -1,0 +1,80 @@
+.footer__subtitle {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.footer__address-text, .footer__tel, .footer__email {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin: 0;
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 36px;
+}
+
+.footer__address-city {
+  padding-left: 60px;
+  margin-bottom: 36px;
+}
+
+.footer__tel, .footer__email {
+  text-decoration: none;
+}
+
+.footer__tel {
+  margin-bottom: 11px;
+}
+
+.footer__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__link{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer__item {
+  margin-right: 26px;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+.footer__link-vk {
+  background-image: url("../img/gameover/vk.svg");
+}
+
+.footer__link-tg {
+  background-image: url("../img/gameover/telegram.svg");
+}
+
+.footer__link-p {
+  background-image: url("../img/gameover/pinterest.svg");
+}
+
+.footer__link-su {
+  background-image: url("../img/gameover/stumbleupon.svg");
+}

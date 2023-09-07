@@ -1,0 +1,77 @@
+.halls__subtitle {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 0;
+
+}
+
+.halls__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.halls__item-one {
+  background-image: url('../img/GameOver/80vibes.jpg');
+  width: 560px;
+  height: 349px;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halls__item-two {
+  background-image: url('../img/GameOver/starwars.jpg');
+  width: 560px;
+  height: 349px;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halls__item-three {
+  background-image: url('../img/GameOver/wildwest.jpg');
+  width: 560px;
+  height: 349px;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halls__item-four {
+  background-image: url('../img/GameOver/neonstyle.jpg');
+  width: 560px;
+  height: 349px;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halls__text {
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 114.286% */
+  text-transform: uppercase;
+  max-width: 260px;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.booking__subtitle {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.booking__btn {
+  color: black;
+  background-color: #fff;
+  padding: 1px 5px 1px;
+}

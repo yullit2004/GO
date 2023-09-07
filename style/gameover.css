@@ -1,0 +1,37 @@
+.gameover {
+  height: 880px;
+}
+
+.gameover__subtitle {
+  position: relative;
+  text-align: left;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; 
+  letter-spacing: -15px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.gameover__text {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 178.571% */
+  margin: 0;
+  padding-left: 100px;
+}
+
+
+.gameover__image {
+  position: absolute;
+  background-image: url('../img/GameOver/man.png');
+  height: 762px;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;
+	z-index: 1;
+  top: 130px;
+  right: 350px;
+}
